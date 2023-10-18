@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "0959710561df2f5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c39489254159005a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b07abe4e166c45ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c485066728ae177e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f73f874ec9e2c6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c1a6f6b8c7ebff7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c7d6952ca42b967",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "244df16ecc7f5514",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2a12bde4e2a90007",
+    "type": "split",
+    "children": [
+      {
+        "id": "d617cfabddd11482",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "126774f1be9e6258",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e5890f7db94e076",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08a67da960f63746",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f85b1bff75607692",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md"
+              }
+            }
+          },
+          {
+            "id": "47686376bbf8b72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b07abe4e166c45ae",
+  "lastOpenFiles": [
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing IPv4.md",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+    "Screenshot 2023-10-15 at 17.21.42.png",
+    "Screenshot 2023-10-15 at 17.18.07.png",
+    "Screenshot 2023-10-15 at 17.06.54.png",
+    "CCNA 200-301/Introduction to Network Technologies/Power Over Ethernet (PoE).md",
+    "CCNA 200-301/Introduction to Network Technologies/Network Topology Architecture.md",
+    "HackTheBox/Medium/Zipping.md",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP",
+    "HackTheBox/Medium/Sandworm.md",
+    "Penetration Testing - Wi-Fi Security/Wi-Fi as Attack Vectors.md",
+    "Penetration Testing - Wi-Fi Security/Attacking Wi-Fi Networks.md",
+    "Penetration Testing - Wi-Fi Security/Wi-Fi Pentest.md",
+    "Penetration Testing - Wi-Fi Security/Discover Wi-Fi Networks.md",
+    "Penetration Testing - Wi-Fi Security/Wireless Standards and Networks.md",
+    "HackTheBox/Medium",
+    "HackTheBox",
+    "CCNA 200-301/Beginning The Cisco Journey",
+    "Screenshot 2023-10-01 at 17.23.15.png",
+    "Screenshot 2023-10-01 at 17.22.39.png",
+    "Screenshot 2023-10-01 at 17.14.09.png",
+    "Screenshot 2023-10-01 at 17.03.18.png",
+    "Screenshot 2023-10-01 at 16.54.45.png",
+    "Screenshot 2023-10-01 at 16.50.32.png",
+    "Screenshot 2023-10-01 at 16.48.34.png",
+    "CCNA 200-301/Introduction to Network Technologies/What is A Computer Network?.md",
+    "Traffic Analysis with Netflow/Original NetFlow Configuration & Monitoring.md",
+    "CCNA 200-301/Introduction to Network Technologies",
+    "Traffic Analysis with Netflow/Original NetFlow Configuration Demonstration.md",
+    "Traffic Analysis with Netflow/Original Netflow Theory & Configuration.md",
+    "Traffic Analysis with Netflow/NetFlow versions.md",
+    "Traffic Analysis with Netflow/NetFlow.md",
+    "Penetration Testing - Wi-Fi Security/Environment Setup.md",
+    "Penetration Testing - Wi-Fi Security/Traffic Analysis.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Radio Frequency Propagation.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security/WPA2.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security/WPA3.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/What is frequency?.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Radio Frequency Properties.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Wi-Fi Standardization.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Wi-Fi Definitions.md",
+    "Untitled.canvas",
+    "Penetration Testing - Wi-Fi Security",
+    "Enterprise Wireless Concepts & Implementation",
+    "Traffic Analysis with Netflow",
+    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security",
+    "CCNA 200-301"
+  ]
+}

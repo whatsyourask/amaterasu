@@ -1,0 +1,12 @@
+- 32-bit addressing system
+- Logical address for a network defined by IANA
+	- Network portion of address
+	- Host portion of address
+- IPv4 addresses are comprised of 4 octets
+	- 11000000 00000001 00000001 00000011
+- Dotted decimal notation is used to segment the octet
+	- 192. 1. 1. 3
+# Network & Host Bits
+- Devices with IPv4 addresses need to be able to identify the "network" portion of their address
+	- Determines the necessity of directing packets to a default gateway for off-network destinations
+	- Determines if ARP is needed to reach local hosts

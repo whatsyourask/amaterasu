@@ -1,0 +1,1 @@
+A few devices connected to exchange information.
