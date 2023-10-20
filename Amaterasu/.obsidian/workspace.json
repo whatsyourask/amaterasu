@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2a12bde4e2a90007",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md"
+                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md"
               }
             }
           },
@@ -159,20 +158,36 @@
   },
   "active": "b07abe4e166c45ae",
   "lastOpenFiles": [
+    "CCNA 200-301/IPv4 Addressing & Subnetting/Agenda.md",
+    "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
+    "Screenshot 2023-10-20 at 00.01.49.png",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introduction to TCP.md",
+    "CCNA 200-301/IPv4 Addressing & Subnetting",
+    "Screenshot 2023-10-19 at 23.57.37.png",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing UDP.md",
     "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing IPv4.md",
+    "CCNA 200-301/Introduction to Network Technologies/What is A Computer Network?.md",
+    "CCNA 200-301/Introduction to Network Technologies/Power Over Ethernet (PoE).md",
+    "CCNA 200-301/Introduction to Network Technologies/Network Topology Architecture.md",
     "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+    "Penetration Testing - Wi-Fi Security/Discover Wi-Fi Networks.md",
+    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security/WLAN Types.md",
+    "Traffic Analysis with Netflow/Original Netflow Theory & Configuration.md",
+    "Traffic Analysis with Netflow/Original NetFlow Configuration Demonstration.md",
+    "Traffic Analysis with Netflow/Original NetFlow Configuration & Monitoring.md",
+    "Traffic Analysis with Netflow/NetFlow versions.md",
+    "Traffic Analysis with Netflow/NetFlow.md",
+    "Penetration Testing - Wi-Fi Security/Wi-Fi as Attack Vectors.md",
+    "Penetration Testing - Wi-Fi Security/Traffic Analysis.md",
+    "Penetration Testing - Wi-Fi Security/Attacking Wi-Fi Networks.md",
+    "English/Words.md",
     "Screenshot 2023-10-15 at 17.21.42.png",
     "Screenshot 2023-10-15 at 17.18.07.png",
     "Screenshot 2023-10-15 at 17.06.54.png",
-    "CCNA 200-301/Introduction to Network Technologies/Power Over Ethernet (PoE).md",
-    "CCNA 200-301/Introduction to Network Technologies/Network Topology Architecture.md",
     "HackTheBox/Medium/Zipping.md",
     "CCNA 200-301/Introduction to IPv4, TCP & UDP",
     "HackTheBox/Medium/Sandworm.md",
-    "Penetration Testing - Wi-Fi Security/Wi-Fi as Attack Vectors.md",
-    "Penetration Testing - Wi-Fi Security/Attacking Wi-Fi Networks.md",
     "Penetration Testing - Wi-Fi Security/Wi-Fi Pentest.md",
-    "Penetration Testing - Wi-Fi Security/Discover Wi-Fi Networks.md",
     "Penetration Testing - Wi-Fi Security/Wireless Standards and Networks.md",
     "HackTheBox/Medium",
     "HackTheBox",
@@ -182,29 +197,13 @@
     "Screenshot 2023-10-01 at 17.14.09.png",
     "Screenshot 2023-10-01 at 17.03.18.png",
     "Screenshot 2023-10-01 at 16.54.45.png",
-    "Screenshot 2023-10-01 at 16.50.32.png",
-    "Screenshot 2023-10-01 at 16.48.34.png",
-    "CCNA 200-301/Introduction to Network Technologies/What is A Computer Network?.md",
-    "Traffic Analysis with Netflow/Original NetFlow Configuration & Monitoring.md",
     "CCNA 200-301/Introduction to Network Technologies",
-    "Traffic Analysis with Netflow/Original NetFlow Configuration Demonstration.md",
-    "Traffic Analysis with Netflow/Original Netflow Theory & Configuration.md",
-    "Traffic Analysis with Netflow/NetFlow versions.md",
-    "Traffic Analysis with Netflow/NetFlow.md",
     "Penetration Testing - Wi-Fi Security/Environment Setup.md",
-    "Penetration Testing - Wi-Fi Security/Traffic Analysis.md",
     "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Radio Frequency Propagation.md",
-    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security/WPA2.md",
-    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security/WPA3.md",
-    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/What is frequency?.md",
-    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Radio Frequency Properties.md",
-    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Wi-Fi Standardization.md",
-    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Wi-Fi Definitions.md",
     "Untitled.canvas",
     "Penetration Testing - Wi-Fi Security",
     "Enterprise Wireless Concepts & Implementation",
     "Traffic Analysis with Netflow",
-    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security",
-    "CCNA 200-301"
+    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security"
   ]
 }
