@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
+                "file": "OSCP notes/Active Directory/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2a12bde4e2a90007",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
+                "file": "OSCP notes/Active Directory/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
+                "file": "OSCP notes/Active Directory/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md"
+                "file": "OSCP notes/Active Directory/Enumeration.md"
               }
             }
           },
@@ -158,8 +159,13 @@
   },
   "active": "b07abe4e166c45ae",
   "lastOpenFiles": [
-    "CCNA 200-301/IPv4 Addressing & Subnetting/Agenda.md",
+    "HackTheBox/Medium/Jupiter.md",
+    "OSCP notes/Active Directory/Enumeration.md",
+    "OSCP notes/Active Directory/Untitled",
+    "OSCP notes/Active Directory",
+    "OSCP notes",
     "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
+    "CCNA 200-301/IPv4 Addressing & Subnetting/Agenda.md",
     "Screenshot 2023-10-20 at 00.01.49.png",
     "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introduction to TCP.md",
     "CCNA 200-301/IPv4 Addressing & Subnetting",
@@ -198,12 +204,7 @@
     "Screenshot 2023-10-01 at 17.03.18.png",
     "Screenshot 2023-10-01 at 16.54.45.png",
     "CCNA 200-301/Introduction to Network Technologies",
-    "Penetration Testing - Wi-Fi Security/Environment Setup.md",
-    "CCNA 200-301/Wireless Network Access Technologies/Wi-Fi Fundamental Principles (INE)/Radio Frequency Propagation.md",
     "Untitled.canvas",
-    "Penetration Testing - Wi-Fi Security",
-    "Enterprise Wireless Concepts & Implementation",
-    "Traffic Analysis with Netflow",
-    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security"
+    "Penetration Testing - Wi-Fi Security"
   ]
 }
