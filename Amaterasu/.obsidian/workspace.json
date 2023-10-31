@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c39489254159005a",
+        "id": "048fc788733d478d",
         "type": "tabs",
         "children": [
           {
-            "id": "b07abe4e166c45ae",
+            "id": "d831460b54761374",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP notes/Active Directory/Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2a12bde4e2a90007",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP notes/Active Directory/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP notes/Active Directory/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OSCP notes/Active Directory/Enumeration.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,10 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b07abe4e166c45ae",
+  "active": "d831460b54761374",
   "lastOpenFiles": [
-    "HackTheBox/Medium/Jupiter.md",
+    "OSCP notes/Active Directory/Attacking Authentication.md",
     "OSCP notes/Active Directory/Enumeration.md",
+    "HackTheBox/Medium/Jupiter.md",
     "OSCP notes/Active Directory/Untitled",
     "OSCP notes/Active Directory",
     "OSCP notes",
@@ -194,7 +186,6 @@
     "CCNA 200-301/Introduction to IPv4, TCP & UDP",
     "HackTheBox/Medium/Sandworm.md",
     "Penetration Testing - Wi-Fi Security/Wi-Fi Pentest.md",
-    "Penetration Testing - Wi-Fi Security/Wireless Standards and Networks.md",
     "HackTheBox/Medium",
     "HackTheBox",
     "CCNA 200-301/Beginning The Cisco Journey",
