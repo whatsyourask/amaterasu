@@ -1,0 +1,199 @@
+# Active Directory Security Risks
+---
+## General Security Concerns
+- Administrative access
+	- Various admin levels (domain admin, schema admin, etc)
+	- Number of admins - make sure to restrict that number to a small group
+	- JIT access - some accounts only have a domain admin access on a certain time. If Support team resets passwords for users, then it's not applied to them, because they can't request access every time.
+	- Separate admin accounts - one account for administrative rights, the other one for usual basis
+		- WITH DIFFERENT PASSWORDS
+	- Administrative workstation - also known as jump box. Isolated and secured and locked down. Only purpose for administrative actions. DCs would be configured to only accept connections from admin workstations. Regular workstations don't work to gain access to DCs.
+- Account security
+	- Proper identity management process
+	- User accounts, service accounts, local accounts - need proper account security.
+	- Managed service accounts - domain manages its security
+	- LAPS - started to be included in windows by default. LAPS can be used to manage machines outside a domain.
+	- Inactive accounts - unused accounts frequently targeted by attackers. 
+- Logging
+	- Domain activity (user logins, changes, etc)
+	- DC login activity - should always be logged
+	- Monitoring and alerting
+- Delegation - assign to an account a specific admin duties or jobs without giving them full administrative access
+	- Ex: allowing helpdesk personnel to change/reset passwords
+	- Careful assignment of rights
+		- No excessive or unnecessary rights
+- RODCs where appropriate
+- Documentation - document everything
+	- Policies and procedures
+	- Roles and responsibilities
+## Domain Controller Security Concerns
+- Virtual machines
+	- Ideally on dedicated host - don't share host with different machines 
+	- Prevents VM escape attacks from other servers
+- Physical security
+	- Virtual or physical server
+	- Secure datacenter/wiring closet
+	- No access unless 100% necessary
+	- Access log for that location - electronic access or biometric access, paper log (camera on door - required)
+- Redundancy - part of the CIA triad
+- Regular patching schedule - make sure everything up-to-date and all vulns are patched
+- Other standard hardening best practices
+# Common AD Attacks
+---
+# Bloodhound
+- Mapping tool for AD
+	- Uses graph theory
+- Collection through "ingestor" that gathers AD data
+- Multiple built-in queries to make recon & exploitation easier
+	- Shortest path to Domain Admins
+	- Map domain trusts
+	- Find workstations where domain users can RDP
+- Best defense is proper AD hardening to limit exposure
+- As defender, proactively run tool internally
+## Golden Ticket
+- Exploits Kerberos to allow attacker to impersonate any account
+	- Includes privileged admin accounts
+- Requires attacker to have 4 pieces of information
+	- FQDN of domain
+	- SID of domain (Security Identifier)
+	- Username of account to impersonate
+	- KRBTGT password hash
+- No method to completely prevent this attack
+	- Change KRBTGT password regularly - changing the hash for an attacker
+	- Limit accounts with access to run DCSync
+	- Don't allow users to be local admins
+	- Monitoring
+		- Long lifetime TGT
+		- Unusual directory synchronizations
+## Kerberoasting
+- Attack against Kerberos protocol
+	- Obtain password hashes for accounts with SPN (Service Principal Name)
+- Requires attacker to already have foothold in network
+- Attackers request TGS tickets for various accounts
+	- Normally service accounts
+	- Ticket is encrypted with password hash of that account
+- Can take ticket & hash offline to attempt to crack
+- Strong, unique passwords are best defense
+- Use threat hunting techniques to find accounts susceptible and secure
+	- Bloodhound
+## Password Spraying
+- Not specifically an attack against AD, but accounts in AD
+- Using known passwords against multiple accounts
+	- Attackers take list of compromised passwords
+	- Attempts to authenticate against accounts using those known passwords
+- Defenses
+	- Strong, complex passwords
+	- No password reuse
+	- MFA
+	- Appropriate account lockout settings
+- Logging and monitoring can help detect
+## LLMNR
+- Link-local Multicast Name Resolution
+	- Allows for name resolution without a DNS server
+- Use multicast to ask for authoritative responses to name queries
+	- First client to respond is treated as authoritative
+- Windows machine receives a response from malicious source
+	- First response is attacker machine
+	- Sends credentials to attacker, since it was "legitimate" first response
+	- Known as LLMNR poisoning attack
+- Defense - disable LLMNR
+	- Some legacy applications may still need
+## NTDS.dit
+- Database file for AD
+	- Contains all information for AD objects, including password hashes
+- Difficult to obtain - cannot be directly copied
+	- Can be gathered using backups, snapshots, Volume Shadow Copies
+	- Various third-party tools can be used
+- Information can be used in pass-the-hash attacks
+- Attackers can perform offline password cracking against hashes
+- Limit access to DCs
+	- Minimal accounts granted access to log in
+- Monitor & alert on logins to DCs
+	- VSSadmin commands
+- Restrict access to backups
+## Pass-the-Hash
+- Using password hash to authenticate instead of password
+- Multiple ways to collect password hashes
+	- NTDS.dit
+	- LLMNR poisoning attacks
+	- Kerberoasting
+	- mimikatz
+		- Allows extracting hashes from local memory
+- Disable NTLMv1 & v2
+	- Kerberos vulnerable to similar "pass the ticket" attack
+- Settings to prevent privileged account hashes from being stored
+# Active Directory Misconfigurations 
+---
+## IAM Misconfigurations
+- Weak password requirements
+- No (or insufficient) account lockout settings
+- Password requirements
+	- Changes required too frequently or too infrequently
+	- NIST recommends no regular password change requirements - only when compromised
+	- Not requiring a password
+- Excessive privileges
+	- Service accounts
+	- Admin accounts
+- Inactive accounts
+## Group Policy Misconfigurations
+- Minimal required permissions for GPOs
+	- Users should not be able to modify or create
+	- Minimize admin permissions
+- Password stored in Group Policy Preferences (GPP)
+	- May be recoverable through XML files
+- Group Policy settings written to SYSVOL share
+## NTLM
+- Susceptible to pass-the-hash attacks
+- Replaced by Kerberos (Windows 2000)
+- Challenge-response
+	- Negotiation from client
+	- Challenge from server
+	- Authentication from client
+- Relies on password hashing
+	- Kerberos uses encryption
+- Stored passwords not salted
+	- Results in being able to use only the password hash for authentication
+## Domain Controller Connectivity
+- NEVER allow RDP from internet
+- Allowing non-essential accounts to RDP to server
+	- Potentially provides access for attackers to access NTDS.dit file
+	- Several other potential compromises
+- Only allow RDP for remote access - do not use third-party software for remote access
+	- Only from administrative "jump boxes"
+- Internet access for DCs
+	- Rarely required for DCs to directly access internet
+	- Updates - internal centralized Windows Update Server
+	- Block at network firewall level, not local firewall
+		- All outbound connectivity from DCs
+## Operating Systems and Patching
+- Always use up to date versions of Windows Server
+	- Ideally use Server Core if possible 
+- Anti-virus/EDR solution
+	- Up to date and actively monitored
+- Timely patching of all DCs
+	- Test updates in test env first
+- Do not run any additional software on DCs
+	- Should only be used for single purpose
+	- Disable built-in Windows features/applications that are not needed
+## Highest Privilege Groups
+- Enterprise Admins
+	- Can perform forest-wide changes, including adding/removing domains
+	- Very rarely needed
+- Domain Admins
+	- Similar to Enterprise Admin, but specific to domain
+- Schema Admins
+	- Permissions to modify AD schema
+- Administrators
+	- Admin permissions in domain, but not servers or workstations
+- Setup monitoring for adding accounts to this groups
+- Delegation should be used in all instances
+## Others
+- LLMNR - Local-link multicast name resolution
+	- Disable if using DNS infrastructure
+- Allowing all users to join computers to domain - only specific users should be able to join machines
+- Users should not be local admins on workstations
+- Storing passwords using reversible encryption
+- Use LAPS to manage local admin accounts
+	- Now included in Windows by default
+	- Ensure built-in "Administrator" account remains disabled
+- Synchronization and replication permissions - at schedule, keep an eye on this permissions, monitor them

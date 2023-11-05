@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory/Advanced Active Directory Reconnaissance & Enumeration.md",
+                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2a12bde4e2a90007",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory/Advanced Active Directory Reconnaissance & Enumeration.md",
+                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory/Advanced Active Directory Reconnaissance & Enumeration.md",
+                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory/Advanced Active Directory Reconnaissance & Enumeration.md"
+                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md"
               }
             }
           },
@@ -159,6 +158,29 @@
   },
   "active": "d831460b54761374",
   "lastOpenFiles": [
+    "Active Directory Security Configuration & Management/Active Directory Security Concerns.md",
+    "Active Directory Security Configuration & Management/Active Directory Overview.md",
+    "Active Directory Security Configuration & Management/Securing Active Directory.md",
+    "Screenshot 2023-11-05 at 21.53.54.png",
+    "OSCP notes/Active Directory/Attacking Authentication.md",
+    "Active Directory Security Configuration & Management",
+    "OSCP notes/Active Directory/Enumeration.md",
+    "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory/Advanced Active Directory Reconnaissance & Enumeration.md",
+    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Traffic Analysis.md",
+    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Environment Setup.md",
+    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Attacking Wi-Fi Networks.md",
+    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Discover Wi-Fi Networks.md",
+    "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
+    "CCNA 200-301/Introduction to Network Technologies/What is A Computer Network?.md",
+    "CCNA 200-301/Introduction to Network Technologies/Power Over Ethernet (PoE).md",
+    "CCNA 200-301/Introduction to Network Technologies/Network Topology Architecture.md",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introduction to TCP.md",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing UDP.md",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
+    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing IPv4.md",
+    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Wi-Fi as Attack Vectors.md",
+    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Wi-Fi Pentest.md",
+    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Wireless Standards and Networks.md",
     "Screenshot 2023-11-03 at 00.45.48.png",
     "Screenshot 2023-11-03 at 00.39.16.png",
     "Screenshot 2023-11-03 at 00.37.07.png",
@@ -168,43 +190,19 @@
     "Screenshot 2023-11-03 at 00.13.22.png",
     "Screenshot 2023-11-03 at 00.08.18.png",
     "Screenshot 2023-11-02 at 23.27.05.png",
-    "Screenshot 2023-11-02 at 23.24.34.png",
-    "Screenshot 2023-11-02 at 23.19.33.png",
     "Enterprise Wireless Concepts & Implementation/Wi-Fi Frequencies & Encoding.md",
-    "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory/Advanced Active Directory Reconnaissance & Enumeration.md",
     "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory",
     "Advanced Penetration Testing",
     "Penetration Testing Professional",
-    "OSCP notes/Active Directory/Attacking Authentication.md",
-    "OSCP notes/Active Directory/Enumeration.md",
     "HackTheBox/Medium/Jupiter.md",
     "OSCP notes/Active Directory/Untitled",
     "OSCP notes/Active Directory",
     "OSCP notes",
-    "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
     "CCNA 200-301/IPv4 Addressing & Subnetting/Agenda.md",
-    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introduction to TCP.md",
     "CCNA 200-301/IPv4 Addressing & Subnetting",
-    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing UDP.md",
-    "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing IPv4.md",
-    "CCNA 200-301/Introduction to Network Technologies/What is A Computer Network?.md",
-    "CCNA 200-301/Introduction to Network Technologies/Power Over Ethernet (PoE).md",
-    "CCNA 200-301/Introduction to Network Technologies/Network Topology Architecture.md",
-    "CCNA 200-301/Introduction to IPv4, TCP & UDP/IPv4 Address Overview.md",
-    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Discover Wi-Fi Networks.md",
     "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security/WLAN Types.md",
-    "Traffic Analysis with Netflow/Original Netflow Theory & Configuration.md",
-    "Traffic Analysis with Netflow/Original NetFlow Configuration Demonstration.md",
-    "Traffic Analysis with Netflow/Original NetFlow Configuration & Monitoring.md",
-    "Traffic Analysis with Netflow/NetFlow versions.md",
-    "Traffic Analysis with Netflow/NetFlow.md",
-    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Wi-Fi as Attack Vectors.md",
-    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Traffic Analysis.md",
-    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Attacking Wi-Fi Networks.md",
-    "English/Words.md",
     "CCNA 200-301/Introduction to IPv4, TCP & UDP",
     "HackTheBox/Medium",
-    "HackTheBox",
     "Untitled.canvas"
   ]
 }
