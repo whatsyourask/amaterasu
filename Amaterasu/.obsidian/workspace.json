@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md",
+                "file": "Active Directory/Authorization and access control components.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2a12bde4e2a90007",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md",
+                "file": "Active Directory/Authorization and access control components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md",
+                "file": "Active Directory/Authorization and access control components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Directory Security Configuration & Management/Securing Active Directory.md"
+                "file": "Active Directory/Authorization and access control components.md"
               }
             }
           },
@@ -158,10 +159,28 @@
   },
   "active": "d831460b54761374",
   "lastOpenFiles": [
+    "Pasted image 20231110202759.png",
+    "Pasted image 20231110202612.png",
+    "Снимок экрана 2023-09-26 в 23.52.47.png",
+    "Снимок экрана 2023-09-26 в 23.47.47.png",
+    "Снимок экрана 2023-09-26 в 23.45.19.png",
+    "Снимок экрана 2023-09-26 в 23.44.48.png",
+    "Снимок экрана 2023-09-26 в 23.36.04.png",
+    "Снимок экрана 2023-09-26 в 23.25.42.png",
+    "Снимок экрана 2023-09-26 в 22.37.52.png",
+    "Снимок экрана 2023-09-25 в 20.02.25.png",
+    "Снимок экрана 2023-09-25 в 19.48.02.png",
+    "Active Directory/Authorization and access control components.md",
+    "Active Directory Security Configuration & Management/Securing Active Directory.md",
+    "Active Directory",
+    "Untitled.md",
     "Active Directory Security Configuration & Management/Active Directory Security Concerns.md",
     "Active Directory Security Configuration & Management/Active Directory Overview.md",
-    "Active Directory Security Configuration & Management/Securing Active Directory.md",
-    "Screenshot 2023-11-05 at 21.53.54.png",
+    "CCNA 200-301/IPv4 Addressing & Subnetting/Identifying Classes & Types of IPv4 Addresses.md",
+    "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
+    "Cloud Infrastructure Basics/Cloud Infrastructure Resources.md",
+    "Cloud Infrastructure Basics/Overview.md",
+    "Cloud Infrastructure Basics",
     "OSCP notes/Active Directory/Attacking Authentication.md",
     "Active Directory Security Configuration & Management",
     "OSCP notes/Active Directory/Enumeration.md",
@@ -170,7 +189,6 @@
     "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Environment Setup.md",
     "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Attacking Wi-Fi Networks.md",
     "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Discover Wi-Fi Networks.md",
-    "CCNA 200-301/IPv4 Addressing & Subnetting/Communications within Broadcast Domains.md",
     "CCNA 200-301/Introduction to Network Technologies/What is A Computer Network?.md",
     "CCNA 200-301/Introduction to Network Technologies/Power Over Ethernet (PoE).md",
     "CCNA 200-301/Introduction to Network Technologies/Network Topology Architecture.md",
@@ -180,29 +198,13 @@
     "CCNA 200-301/Introduction to IPv4, TCP & UDP/Introducing IPv4.md",
     "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Wi-Fi as Attack Vectors.md",
     "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Wi-Fi Pentest.md",
-    "Penetration Testing Professional/Penetration Testing - Wi-Fi Security/Wireless Standards and Networks.md",
-    "Screenshot 2023-11-03 at 00.45.48.png",
-    "Screenshot 2023-11-03 at 00.39.16.png",
-    "Screenshot 2023-11-03 at 00.37.07.png",
-    "Screenshot 2023-11-03 at 00.33.42.png",
-    "Screenshot 2023-11-03 at 00.27.49.png",
-    "Screenshot 2023-11-03 at 00.17.49.png",
-    "Screenshot 2023-11-03 at 00.13.22.png",
-    "Screenshot 2023-11-03 at 00.08.18.png",
-    "Screenshot 2023-11-02 at 23.27.05.png",
-    "Enterprise Wireless Concepts & Implementation/Wi-Fi Frequencies & Encoding.md",
     "Advanced Penetration Testing/Penetration Testing - Red Teaming Active Directory",
     "Advanced Penetration Testing",
     "Penetration Testing Professional",
-    "HackTheBox/Medium/Jupiter.md",
     "OSCP notes/Active Directory/Untitled",
     "OSCP notes/Active Directory",
     "OSCP notes",
-    "CCNA 200-301/IPv4 Addressing & Subnetting/Agenda.md",
     "CCNA 200-301/IPv4 Addressing & Subnetting",
-    "CCNA 200-301/Wireless Network Access Technologies/Jumping into Wi-Fi Security/WLAN Types.md",
-    "CCNA 200-301/Introduction to IPv4, TCP & UDP",
-    "HackTheBox/Medium",
     "Untitled.canvas"
   ]
 }
