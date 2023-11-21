@@ -1,0 +1,4 @@
+- Process of combining multiple subnetworks into a single network advertisement
+- Network ID and subnet mask are referenced
+- Usually called aggregation
+- Efficient in large networks, provides addressing hierarchy

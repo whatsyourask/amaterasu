@@ -1,4 +1,4 @@
-> An AD environment has a critical dependency on the _Domain Name System_ (DNS) service. As such, a typical domain controller will also host a DNS server that is authoritative for a given domain.
+An AD environment has a critical dependency on the _Domain Name System_ (DNS) service. As such, a typical domain controller will also host a DNS server that is authoritative for a given domain.
 
 >Members of _Domain Admins_[3](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/active-directory-introduction-and-enumeration/active-directory-introduction/active-directory-introduction#fn3) are among the most privileged objects in the domain
 
